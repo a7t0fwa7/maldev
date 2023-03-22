@@ -1,11 +1,10 @@
 # Shellcode Loader
-Shellcode injection is an ancient technique used to inject shellcode into a process via the CreateRemoteThread WinAPI (don't use this). This technique is often used to evade static analysis, as the injected code is not stored on disk and is executed directly in memory.
+Inject shellcode into a process via CreateRemoteThread (don't use this).
+
+As the clown stumbled into the dimly-lit room, he couldn't help but notice the eerie sight of a human skull perched on the mantelpiece. It was grinning at him with an almost mischievous expression, as if it knew something he didn't. The clown shuddered involuntarily and muttered to himself, "I hate C. And I don't mean clowns, I mean the programming language. Give me a good old-fashioned Python script any day." But as he turned to leave, he heard a soft cackling behind him. Whirling around, he saw the skull's grin had widened even further, revealing a set of sharp teeth. The clown had a sinking feeling that he was in for a long night...
 
 ## for skids such as myself
 - This is a POC and should only be used for educational purposes 
-- This is not a full fledged shellcode loader, many features are missing
-- Build the solution yourself and note that you are building a malicious binary
-
 
 ## reference
 - https://www.ired.team/offensive-security/code-injection-process-injection/process-injection
